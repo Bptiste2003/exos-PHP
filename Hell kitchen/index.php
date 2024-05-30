@@ -12,8 +12,6 @@ include_once './params.php';
 
 //DOC : ici tu met ton code 
 
-
-
 //DOC : fin du code 
 
 ////////////////////////////////////////////////
@@ -35,10 +33,6 @@ $camionCremerie = $secretArray;
 
 //DOC : ici tu met ton code 
 
-
-
-
-
 //DOC : fin du code 
 //////////////////////////////////////////////////
 
@@ -51,8 +45,6 @@ $recette2 ;
 
 
 //DOC : ici tu met ton code 
-
-
 
 //DOC : fin du code 
 
