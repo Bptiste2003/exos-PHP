@@ -2,7 +2,7 @@
 # Bienvenue dans Hell_Kitchen 👿
 
   ## <u>Commencer</u>
-  - Toutes tes réponses seront écrites **entres les balises 'DOC'**
+  - Toutes tes réponses seront écrites dans le fichier **index.php** entres les balises **DOC**
   - Tu dois validé le premier exercice pour passer au second, ect 
   - ⚠️ Ne regarde pas les pages **params.php** et **correction.php** sinon cela est trop simple, les recherches sur google sont les bienvenues !
 
