@@ -3,7 +3,7 @@ include_once './params.php';
 
 ?>
 
-<h1>Bienvenue sur HellKitchen !</h1>
+<h1>Bienvenue sur HellKitchen ! 👾</h1>
 
 <?php
 
@@ -11,6 +11,8 @@ include_once './params.php';
 //TODO : 1. Créer ton stock
 
 //DOC : ici tu met ton code 
+
+
 
 //DOC : fin du code 
 
@@ -33,10 +35,12 @@ $camionCremerie = $secretArray;
 
 //DOC : ici tu met ton code 
 
+
+
 //DOC : fin du code 
 //////////////////////////////////////////////////
 
-//TODO : 2. Créer tes premieres recettes
+//TODO : 3. Créer tes premieres recettes
 
 $recette1 ;
 $recette2 ;
@@ -45,6 +49,7 @@ $recette2 ;
 
 
 //DOC : ici tu met ton code 
+
 
 //DOC : fin du code 
 

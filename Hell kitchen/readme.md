@@ -15,7 +15,7 @@
 
   ### 2. <u>Remplir le frigo !</u>
   - Maintenant que tu as créé ton stock, il va falloir le remplir, par chance les camions de livraison viennent d'arriver !
-  - Sert toi des boucles pour remplir notre garde manger avec les camions, résultat voulu : ![exemple resultat](./Hell%20kitchen/assets/Screenshot_1.png)
+  - Sert toi des boucles pour remplir notre garde manger avec les camions, résultat voulu : ![exemple resultat](./assets/Screenshot_1.png)
   
 
   ### 3.<u>Créer tes premieres recettes</u>

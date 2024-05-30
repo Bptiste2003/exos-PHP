@@ -10,13 +10,21 @@ if(
 }
 
 if( isset($gardeManger) && isset($gardeManger['legumes']) && isset($gardeManger['epicerie']) &&  isset($gardeManger['cremerie']) ){
-    $condition1 = array_diff($gardeManger['legumes'], array('Salades', 'Tomates', 'Navets', 'Oignons', 'Poivrons') );
-    $condition2 = array_diff($gardeManger['epicerie'], array('Sel', 'Poivre', 'Curry', 'Farine', 'Sucre' ));
-    $condition3 = array_diff($gardeManger['cremerie'], array('Oeufs','Beurre','Lait de soja' ));
+
+    $legumesReference = ['Salades', 'Tomates', 'Navets', 'Oignons', 'Poivrons'];
+    $epicerieReference = ['Sel', 'Poivre', 'Curry', 'Farine', 'Sucre'];
+    $cremerieReference = ['Oeufs', 'Beurre', 'Lait de soja'];
+
+    $condition1 = empty(array_diff($gardeManger['legumes'], $legumesReference)) && empty(array_diff($legumesReference, $gardeManger['legumes']));
+    $condition2 = empty(array_diff($gardeManger['epicerie'], $epicerieReference)) && empty(array_diff($epicerieReference, $gardeManger['epicerie']));
+    $condition3 = empty(array_diff($gardeManger['cremerie'], $cremerieReference)) && empty(array_diff($cremerieReference, $gardeManger['cremerie']));
+        
+    // echo '<br>';
+    // var_dump($gardeManger['legumes']);
+    // var_dump($condition2);
+    // var_dump($condition3);
     
-    echo '<br>';
-    
-    if ( count($condition1) === 0 & count($condition2) === 0 && count($condition3) === 0){
+    if ( $condition1 && $condition2 && $condition3){
         echo  'Exercice 2 validé ✔️';
     }else{
         echo 'Exercice 2 non validé ❌';
