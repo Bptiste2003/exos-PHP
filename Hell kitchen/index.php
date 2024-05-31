@@ -43,9 +43,9 @@ $gardeManger = array(
     "cremerie" => $camionCremerie['rayons']
 );
 
-// echo "<pre>";
-// print_r($gardeManger['legumes']);
-// echo "</pre>";
+echo "<pre>";
+print_r($gardeManger);
+echo "</pre>";
 
 //DOC : fin du code 
 //////////////////////////////////////////////////
@@ -59,23 +59,34 @@ $recette2 ;
 
 
 //DOC : ici tu met ton code 
-$recette1 = array();
+$recette1 = array(
+    $gardeManger['legumes'][0],
+    $gardeManger['legumes'][1],
+    $gardeManger['legumes'][3],
+    $gardeManger['epicerie'][2],
+    $gardeManger['cremerie'][0]
+);
 
-foreach ($gardeManger as $gardeManger['legumes']) {
-    
-    if (isset($gardeManger['legumes']) && isset($gardeManger['legumes'][0])) {
-        // echo "<pre>";
-        // print_r($gardeManger['legumes'][0] . "<br>");
-        // print_r($gardeManger['legumes'][1] . "<br>");
-        // print_r($gardeManger['legumes'][3]);
-        // echo "</pre>";die();
-        foreach ($gardeManger['legumes'] as $gardeManger['epicerie']) {
-            echo "<pre>";
-            print_r($gardeManger['epicerie']['Inventaire'][0]);
-            echo "</pre>";die();
-        }
-    }
-}
+echo "<pre>";
+print_r($recette1);
+echo "</pre>";
+
+$recette2 = array(
+    $gardeManger['legumes'][2],
+    $gardeManger['legumes'][4],
+    $gardeManger['cremerie'][1],
+    $gardeManger['epicerie'][0],
+    $gardeManger['epicerie'][1]
+);
+
+echo "<pre>";
+print_r($recette2);
+echo "</pre>";
+
+
+
+
+
 
 //DOC : fin du code 
 
